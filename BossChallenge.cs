@@ -16,7 +16,6 @@ namespace BossChallengeParameters
             
             if (dcm != null)
             {
-                dcm.chalType = ChallengeType.CustomMapPlay;
                 dcm.mode =  BossChallengeParametersMod.Mode;
                 dcm.bloonModifiers.speedMultiplier = BossChallengeParametersMod.BloonSpeed;
                 dcm.bloonModifiers.moabSpeedMultiplier =  BossChallengeParametersMod.MoabSpeed;
